@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+{%load staticfiles %}
+<head>
+    <link rel="stylesheet" href="{% static '/css/top.css' %}">
+</head>
+<h1 class="top">top</h1>
+
+<form method="GET" name="asa" class="post-form" action="/clash/attacker">
+    {% csrf_token %}
+    {{ form.as_p}}
+<input type="submit" value="検索">
+</form>
+{% endblock %}
