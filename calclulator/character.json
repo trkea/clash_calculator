@@ -83,7 +83,7 @@
     {
         "attack":133,
         "building":0,
-        "english_name":"Baby Dragon",
+        "english_name":"Baby_Dragon",
         "first_attack":0,
         "hp":1064,
         "japanese_name":"ベビードラゴン",
@@ -101,7 +101,7 @@
     {
         "attack":67,
         "building":0,
-        "english_name":"Skeleton Army",
+        "english_name":"skeleton_Warriors",
         "first_attack":0,
         "hp":67,
         "japanese_name":"スケルトン部隊",
@@ -110,7 +110,7 @@
     {
         "attack":106,
         "building":0,
-        "english_name":"Goblin",
+        "english_name":"Goblins",
         "first_attack":0,
         "hp":167,
         "japanese_name":"ゴブリン",
@@ -119,7 +119,7 @@
     {
         "attack":67,
         "building":0,
-        "english_name":"Spear Goblins",
+        "english_name":"Spear_Goblins",
         "first_attack":0,
         "hp":110,
         "japanese_name":"槍ゴブリン",
@@ -128,7 +128,7 @@
     {
         "attack":0,
         "building":0,
-        "english_name":"Hog Rider",
+        "english_name":"Hog_Rider",
         "first_attack":0,
         "hp":1408,
         "japanese_name":"ホグライダー",
@@ -146,7 +146,7 @@
     {
         "attack":106,
         "building":0,
-        "english_name":"Goblin Barrel",
+        "english_name":"Goblin_Barrel",
         "first_attack":0,
         "hp":167,
         "japanese_name":"ゴブリンバレル",
@@ -155,7 +155,7 @@
     {
         "attack":0,
         "building":1,
-        "english_name":"Goblin Hut",
+        "english_name":"Goblin_Hut",
         "first_attack":0,
         "hp":1293,
         "japanese_name":"ゴブリンの小屋",
@@ -173,7 +173,7 @@
     {
         "attack":67,
         "building":0,
-        "english_name":"Skeleton",
+        "english_name":"Skeletons",
         "first_attack":0,
         "hp":67,
         "japanese_name":"スケルトン",
@@ -200,7 +200,7 @@
     {
         "attack":172,
         "building":0,
-        "english_name":"Giant Skeleton",
+        "english_name":"Giant_Skeleton",
         "first_attack":0,
         "hp":2793,
         "japanese_name":"巨大スケルトン",
@@ -227,7 +227,7 @@
     {
         "attack":0,
         "building":0,
-        "english_name":"Barbarian Barrel",
+        "english_name":"Barbarian_Barrel",
         "first_attack":239,
         "hp":0,
         "japanese_name":"ローリングバーバリアン",
@@ -272,7 +272,7 @@
     {
         "attack":84,
         "building":0,
-        "english_name":"Minion Horde",
+        "english_name":"Minion_Horde",
         "first_attack":0,
         "hp":190,
         "japanese_name":"ガーゴイルの群れ",
@@ -281,7 +281,7 @@
     {
         "attack":258,
         "building":0,
-        "english_name":"Mega Minion",
+        "english_name":"Mega_Minion",
         "first_attack":0,
         "hp":695,
         "japanese_name":"メガガーゴイル",
@@ -317,7 +317,7 @@
     {
         "attack":45,
         "building":0,
-        "english_name":"Lava Hound",
+        "english_name":"Lava_Hound",
         "first_attack":0,
         "hp":3150,
         "japanese_name":"ラヴァハウンド",
@@ -326,7 +326,7 @@
     {
         "attack":-1673,
         "building":1,
-        "english_name":"Inferno Tower",
+        "english_name":"Inferno_Tower",
         "first_attack":0,
         "hp":1452,
         "japanese_name":"インフェルノタワー",
@@ -362,7 +362,7 @@
     {
         "attack":96,
         "building":0,
-        "english_name":"Magic Archer",
+        "english_name":"Magic_Archer",
         "first_attack":0,
         "hp":490,
         "japanese_name":"マジックアーチャー",
@@ -371,7 +371,7 @@
     {
         "attack":0,
         "building":0,
-        "english_name":"Fire Spirits",
+        "english_name":"Fire_Spirits",
         "first_attack":178,
         "hp":91,
         "japanese_name":"ファイアスピリット",
@@ -389,7 +389,7 @@
     {
         "attack":260,
         "building":0,
-        "english_name":"Hight Witch",
+        "english_name":"Hight_Witch",
         "first_attack":0,
         "hp":750,
         "japanese_name":"ダークネクロ",
@@ -434,7 +434,7 @@
     {
         "attack":240,
         "building":0,
-        "english_name":"The Log",
+        "english_name":"The_Log",
         "first_attack":0,
         "hp":0,
         "japanese_name":"ローリングウッド",
@@ -443,7 +443,7 @@
     {
         "attack":0,
         "building":0,
-        "english_name":"Skeleton Barrel",
+        "english_name":"Skeleton_Barrel",
         "first_attack":110,
         "hp":636,
         "japanese_name":"スケルトンバレル",
@@ -461,7 +461,7 @@
     {
         "attack":-320,
         "building":0,
-        "english_name":"Inferno Dragon",
+        "english_name":"Inferno_Dragon",
         "first_attack":0,
         "hp":1070,
         "japanese_name":"インフェルノドラゴン",
@@ -488,7 +488,7 @@
     {
         "attack":101,
         "building":0,
-        "english_name":"Royal Recuruits",
+        "english_name":"Royal_Recuruits",
         "first_attack":0,
         "hp":639,
         "japanese_name":"見習い親衛隊",
@@ -497,7 +497,7 @@
     {
         "attack":543,
         "building":0,
-        "english_name":"Three Musketeers",
+        "english_name":"Three_Musketeers",
         "first_attack":0,
         "hp":598,
         "japanese_name":"三銃士",
@@ -506,7 +506,7 @@
     {
         "attack":222,
         "building":0,
-        "english_name":"Mega Night",
+        "english_name":"Mega_Night",
         "first_attack":444,
         "hp":3300,
         "japanese_name":"メガナイト",
@@ -524,7 +524,7 @@
     {
         "attack":207,
         "building":0,
-        "english_name":"Dark Prince",
+        "english_name":"Dark_Prince",
         "first_attack":0,
         "hp":1299,
         "japanese_name":"ダークプリンス",
@@ -542,7 +542,7 @@
     {
         "attack":0,
         "building":0,
-        "english_name":"Royal Hog",
+        "english_name":"Royal_Hog",
         "first_attack":0,
         "hp":695,
         "japanese_name":"ロイヤルホグ",
@@ -551,7 +551,7 @@
     {
         "attack":90,
         "building":0,
-        "english_name":"Skeleton Army",
+        "english_name":"Skeleton_Army",
         "first_attack":0,
         "hp":289,
         "japanese_name":"盾の戦士",
@@ -560,7 +560,7 @@
     {
         "attack":139,
         "building":0,
-        "english_name":"Giant Snowball",
+        "english_name":"Giant_Snowball",
         "first_attack":0,
         "hp":0,
         "japanese_name":"巨大雪玉",
@@ -569,7 +569,7 @@
     {
         "attack":0,
         "building":0,
-        "english_name":"Ice Gorem",
+        "english_name":"Ice_Gorem",
         "first_attack":0,
         "hp":994,
         "japanese_name":"アイスゴーレム",
@@ -578,7 +578,7 @@
     {
         "attack":200,
         "building":0,
-        "english_name":"Rumber Jack",
+        "english_name":"Rumber_Jack",
         "first_attack":0,
         "hp":1060,
         "japanese_name":"ランバージャック",
@@ -587,7 +587,7 @@
     {
         "attack":91,
         "building":0,
-        "english_name":"Ice Spirit",
+        "english_name":"Ice_Spirit",
         "first_attack":0,
         "hp":190,
         "japanese_name":"アイススピリット",
@@ -605,7 +605,7 @@
     {
         "attack":75,
         "building":0,
-        "english_name":"Ice Wizard",
+        "english_name":"Ice_Wizard",
         "first_attack":0,
         "hp":590,
         "japanese_name":"アイスウィザード",
@@ -614,7 +614,7 @@
     {
         "attack":0,
         "building":1,
-        "english_name":"Elixir Pump",
+        "english_name":"Elixir_Pump",
         "first_attack":0,
         "hp":888,
         "japanese_name":"エリクサーポンプ",
@@ -641,7 +641,7 @@
     {
         "attack":100,
         "building":0,
-        "english_name":"Dart Goblin",
+        "english_name":"Dart_Goblin",
         "first_attack":0,
         "hp":216,
         "japanese_name":"吹き矢ゴブリン",
@@ -668,7 +668,7 @@
     {
         "attack":183,
         "building":0,
-        "english_name":"Earth Quake",
+        "english_name":"Earth_Quake",
         "first_attack":0,
         "hp":0,
         "japanese_name":"アースクエイク",
@@ -686,7 +686,7 @@
     {
         "attack":254,
         "building":0,
-        "english_name":"Elite Barbalians",
+        "english_name":"Elite_Barbalians",
         "first_attack":0,
         "hp":970,
         "japanese_name":"エリートバーバリアン",
@@ -695,7 +695,7 @@
     {
         "attack":86,
         "building":0,
-        "english_name":"Ram Rider",
+        "english_name":"Ram_Rider",
         "first_attack":440,
         "hp":1461,
         "japanese_name":"ラムライダー",
@@ -704,7 +704,7 @@
     {
         "attack":168,
         "building":0,
-        "english_name":"Cannon Cart",
+        "english_name":"Cannon_Cart",
         "first_attack":0,
         "hp":742,
         "japanese_name":"60式ムート",
@@ -713,7 +713,7 @@
     {
         "attack":184,
         "building":0,
-        "english_name":"Bomb Tower",
+        "english_name":"Bomb_Tower",
         "first_attack":0,
         "hp":1126,
         "japanese_name":"ボムタワー",
@@ -749,7 +749,7 @@
     {
         "attack":0,
         "building":0,
-        "english_name":"Elixir Golem",
+        "english_name":"Elixir_Golem",
         "first_attack":0,
         "hp":1408,
         "japanese_name":"エリクサーゴーレム",
@@ -758,7 +758,7 @@
     {
         "attack":159,
         "building":0,
-        "english_name":"Electro Dragon",
+        "english_name":"Electro_Dragon",
         "first_attack":0,
         "hp":790,
         "japanese_name":"ライトニングドラゴン",
@@ -776,7 +776,7 @@
     {
         "attack":96,
         "building":0,
-        "english_name":"Electro Wizard",
+        "english_name":"Electro_Wizard",
         "first_attack":75,
         "hp":590,
         "japanese_name":"エレクトロウィザード",
@@ -785,7 +785,7 @@
     {
         "attack":0,
         "building":0,
-        "english_name":"Goblin Cage",
+        "english_name":"Goblin_Cage",
         "first_attack":0,
         "hp":800,
         "japanese_name":"ゴブリンの檻",
@@ -794,7 +794,7 @@
     {
         "attack":264,
         "building":1,
-        "english_name":"Goblin Brawler",
+        "english_name":"Goblin_Brawler",
         "first_attack":0,
         "hp":853,
         "japanese_name":"リベンジゴブリン",
@@ -803,7 +803,7 @@
     {
         "attack":216,
         "building":0,
-        "english_name":"Royal Ghost",
+        "english_name":"Royal_Ghost",
         "first_attack":0,
         "hp":1000,
         "japanese_name":"ロイヤルゴースト",
