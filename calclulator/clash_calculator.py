@@ -1,16 +1,19 @@
+# coding: UTF-8
 import json
 
 class ClashCalculator:
 
-    def load_character(english_name):
+    def load_character(self, character_english_name):
         f = open('character.json', 'r')
         characters = json.load(f)
-        return characters[english_name]
+        for character in characters:
+            if character['english_name'] == character_english_name:
+                return character
+        return False
 
 
-    def calc_damage(attacker, defencer):
+    def calc_damage(self, attacker, defencer):
         attack_times = 0
-
         # アタッカーのタイプ
         UNIT_ATTACK_TYPE = 'ATTACK_TYPE'
         TOWER_ATTACK_TYPE = 'TOWER_ATTACK_TYPE'
@@ -36,11 +39,11 @@ class ClashCalculator:
         
         # 攻撃処理に入らない場合、falseを返す
         if attacker_type is TOWER_ATTACK_TYPE and defencer_type is UNIT_TYPE:
-            return false
+            return False
         if defencer_type is SPELL_TYPE:
-            return false
+            return False
         
-        #使用する攻撃力を決める
+        # 使用する攻撃力を決める
         attack = 0
         if defencer_type is UNIT_TYPE:
             attack = attacker['attack']
@@ -58,3 +61,10 @@ class ClashCalculator:
             hp = hp - attack
             attack_times += 1
         return attack_times
+
+if __name__ == '__main__':
+    clash = ClashCalculator()
+    bowler = clash.load_character('PEKKA')
+    fisherman = clash.load_character('Hunter')
+    times = clash.calc_damage(fisherman, bowler)
+    print(times)

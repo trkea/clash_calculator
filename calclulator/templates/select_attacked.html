@@ -4,6 +4,11 @@
 <head>
     <link rel="stylesheet" href="{% static '/css/select_attacked.css' %}">
 </head>
+{% for character in characters %}
+<div class="card_img">
+    <img class="card" width="75" height="90" src="/static/img/{{ character.english_name }}.png" %}/>
+</div>
+{% endfor %}
 <h1 class="attacked">select attacked</h1>
 
 <form method="GET" name="asa" class="post-form" action="/clash/result">
