@@ -9,6 +9,6 @@
 <form method="GET" name="asa" class="post-form" action="/clash/attacker">
     {% csrf_token %}
     {{ form.as_p}}
-<input type="submit" value="検索">
+<div class="button"><input type="submit" value="検索"></div>
 </form>
 {% endblock %}

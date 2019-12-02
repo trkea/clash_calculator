@@ -12,9 +12,9 @@
 {% else %}
 <p>{{ attacker.japanese_name }}が{{ defencer.japanese_name }}を倒すことはできません</p>
 {% endif %}
-<form method="GET" name="asa" class="post-form" action="/clash">
+<form method="GET" name="asa" class="post-form" action="/clash/attacker">
     {% csrf_token %}
     {{ form.as_p}}
-<input type="submit" value="戻る">
+<div class="button"><input type="submit" value="もう一度"></div>
 </form>
 {% endblock %}
