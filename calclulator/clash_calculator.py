@@ -3,8 +3,11 @@ import json
 
 class ClashCalculator:
 
+    def __init__(self, data_path):
+        self.data_path = data_path
+
     def load_character(self, character_english_name):
-        f = open('character.json', 'r')
+        f = open(self.data_path, 'r')
         characters = json.load(f)
         for character in characters:
             if character['english_name'] == character_english_name:
@@ -23,24 +26,33 @@ class ClashCalculator:
         BUILDING_TYPE = 'BUILDING_TYPE'
         SPELL_TYPE = 'SPELL_TYPE'
 
+        #空中属性
+        NON_FLY = 0
+        ATTACK_ONLY = 1
+        FLY = 2
+
         # 各ユニットがタワーかユニットか判定
         attacker_type = ''
         defencer_type = ''
-        if attacker['attack'] is 0:
+        if attacker['attack'] == 0:
             attacker_type = TOWER_ATTACK_TYPE
         else:
             attacker_type = UNIT_ATTACK_TYPE
-        if defencer['building'] is 1:
+        if defencer['building'] == 1:
             defencer_type = BUILDING_TYPE
         else:
             defencer_type = UNIT_TYPE
-        if defencer['hp'] is 0:
+        if defencer['hp'] == 0:
             defencer_type = SPELL_TYPE
         
         # 攻撃処理に入らない場合、falseを返す
         if attacker_type is TOWER_ATTACK_TYPE and defencer_type is UNIT_TYPE:
             return False
         if defencer_type is SPELL_TYPE:
+            return False
+        
+        #各ユニットの空中属性から、攻撃に入るかどうかを判定
+        if attacker['fly'] == NON_FLY and defencer['fly'] == FLY:
             return False
         
         # 使用する攻撃力を決める
@@ -52,7 +64,7 @@ class ClashCalculator:
 
         # 登場時ダメージ
         hp = defencer['hp']
-        if attacker['first_attack'] is not 0:
+        if attacker['first_attack'] != 0:
             hp -= attacker['first_attack']
             attack_times += 1
         
@@ -64,7 +76,7 @@ class ClashCalculator:
 
 if __name__ == '__main__':
     clash = ClashCalculator()
-    bowler = clash.load_character('PEKKA')
-    fisherman = clash.load_character('Hunter')
+    bowler = clash.load_character('cannon')
+    fisherman = clash.load_character('barbarian_hut')
     times = clash.calc_damage(fisherman, bowler)
     print(times)

@@ -4,6 +4,7 @@
         "building":0,
         "english_name":"Giant",
         "first_attack":0,
+        "fly":0,
         "hp":4028,
         "japanese_name":"ジャイアント",
         "tower_damage":254
@@ -13,6 +14,7 @@
         "building":0,
         "english_name":"Minions",
         "first_attack":0,
+        "fly":2,
         "hp":190,
         "japanese_name":"ガーゴイル",
         "tower_damage":84
@@ -22,6 +24,7 @@
         "building":0,
         "english_name":"Archers",
         "first_attack":0,
+        "fly":1,
         "hp":252,
         "japanese_name":"アーチャー",
         "tower_damage":89
@@ -31,6 +34,7 @@
         "building":0,
         "english_name":"Knight",
         "first_attack":0,
+        "fly":0,
         "hp":1382,
         "japanese_name":"ナイト",
         "tower_damage":167
@@ -40,6 +44,7 @@
         "building":0,
         "english_name":"Fireball",
         "first_attack":0,
+        "fly":2,
         "hp":0,
         "japanese_name":"ファイアボール",
         "tower_damage":242
@@ -49,6 +54,7 @@
         "building":0,
         "english_name":"Arrows",
         "first_attack":0,
+        "fly":2,
         "hp":0,
         "japanese_name":"矢の雨",
         "tower_damage":86
@@ -58,6 +64,7 @@
         "building":0,
         "english_name":"Wall_Breaker",
         "first_attack":0,
+        "fly":0,
         "hp":275,
         "japanese_name":"ウォールブレイカー",
         "tower_damage":400
@@ -67,6 +74,7 @@
         "building":0,
         "english_name":"Mini_Pekka",
         "first_attack":0,
+        "fly":0,
         "hp":1129,
         "japanese_name":"ミニPEKKA",
         "tower_damage":598
@@ -76,6 +84,7 @@
         "building":0,
         "english_name":"Musketeer",
         "first_attack":0,
+        "fly":1,
         "hp":598,
         "japanese_name":"マスケット銃士",
         "tower_damage":181
@@ -85,6 +94,7 @@
         "building":0,
         "english_name":"Baby_Dragon",
         "first_attack":0,
+        "fly":2,
         "hp":1064,
         "japanese_name":"ベビードラゴン",
         "tower_damage":133
@@ -94,24 +104,17 @@
         "building":0,
         "english_name":"Prince",
         "first_attack":650,
+        "fly":0,
         "hp":1615,
         "japanese_name":"プリンス",
         "tower_damage":325
-    },
-    {
-        "attack":67,
-        "building":0,
-        "english_name":"skeleton_Warriors",
-        "first_attack":0,
-        "hp":67,
-        "japanese_name":"スケルトン部隊",
-        "tower_damage":67
     },
     {
         "attack":106,
         "building":0,
         "english_name":"Goblins",
         "first_attack":0,
+        "fly":0,
         "hp":167,
         "japanese_name":"ゴブリン",
         "tower_damage":106
@@ -121,6 +124,7 @@
         "building":0,
         "english_name":"Spear_Goblins",
         "first_attack":0,
+        "fly":1,
         "hp":110,
         "japanese_name":"槍ゴブリン",
         "tower_damage":67
@@ -130,6 +134,7 @@
         "building":0,
         "english_name":"Hog_Rider",
         "first_attack":0,
+        "fly":0,
         "hp":1408,
         "japanese_name":"ホグライダー",
         "tower_damage":264
@@ -139,6 +144,7 @@
         "building":0,
         "english_name":"Hunter",
         "first_attack":0,
+        "fly":1,
         "hp":696,
         "japanese_name":"ハンター",
         "tower_damage":690
@@ -148,6 +154,7 @@
         "building":0,
         "english_name":"Goblin_Barrel",
         "first_attack":0,
+        "fly":0,
         "hp":167,
         "japanese_name":"ゴブリンバレル",
         "tower_damage":106
@@ -157,6 +164,7 @@
         "building":1,
         "english_name":"Goblin_Hut",
         "first_attack":0,
+        "fly":0,
         "hp":1293,
         "japanese_name":"ゴブリンの小屋",
         "tower_damage":0
@@ -166,6 +174,7 @@
         "building":0,
         "english_name":"Valkyrie",
         "first_attack":0,
+        "fly":0,
         "hp":1654,
         "japanese_name":"バルキリー",
         "tower_damage":221
@@ -175,6 +184,7 @@
         "building":0,
         "english_name":"Skeletons",
         "first_attack":0,
+        "fly":0,
         "hp":67,
         "japanese_name":"スケルトン",
         "tower_damage":67
@@ -184,6 +194,7 @@
         "building":0,
         "english_name":"Bomber",
         "first_attack":0,
+        "fly":0,
         "hp":311,
         "japanese_name":"ボンバー",
         "tower_damage":271
@@ -193,6 +204,7 @@
         "building":1,
         "english_name":"Tombstone",
         "first_attack":0,
+        "fly":0,
         "hp":422,
         "japanese_name":"墓石",
         "tower_damage":0
@@ -202,6 +214,7 @@
         "building":0,
         "english_name":"Giant_Skeleton",
         "first_attack":0,
+        "fly":0,
         "hp":2793,
         "japanese_name":"巨大スケルトン",
         "tower_damage":172
@@ -211,6 +224,7 @@
         "building":0,
         "english_name":"Witch",
         "first_attack":0,
+        "fly":1,
         "hp":787,
         "japanese_name":"ネクロマンサー",
         "tower_damage":69
@@ -220,16 +234,18 @@
         "building":0,
         "english_name":"Barbarians",
         "first_attack":0,
+        "fly":0,
         "hp":555,
         "japanese_name":"バーバリアン",
         "tower_damage":159
     },
     {
-        "attack":0,
+        "attack":159,
         "building":0,
         "english_name":"Barbarian_Barrel",
         "first_attack":239,
-        "hp":0,
+        "fly":0,
+        "hp":555,
         "japanese_name":"ローリングバーバリアン",
         "tower_damage":84
     },
@@ -238,6 +254,7 @@
         "building":1,
         "english_name":"Cannon",
         "first_attack":0,
+        "fly":0,
         "hp":742,
         "japanese_name":"大砲",
         "tower_damage":0
@@ -245,8 +262,9 @@
     {
         "attack":0,
         "building":1,
-        "english_name":"Barbarian Hut",
+        "english_name":"Barbarian_Hut",
         "first_attack":0,
+        "fly":0,
         "hp":1804,
         "japanese_name":"バーバリアンの小屋",
         "tower_damage":0
@@ -254,8 +272,9 @@
     {
         "attack":0,
         "building":0,
-        "english_name":"Battle Ram",
+        "english_name":"Battle_Ram",
         "first_attack":0,
+        "fly":0,
         "hp":756,
         "japanese_name":"攻城バーバリアン",
         "tower_damage":440
@@ -265,6 +284,7 @@
         "building":0,
         "english_name":"Golem",
         "first_attack":0,
+        "fly":0,
         "hp":4256,
         "japanese_name":"ゴーレム",
         "tower_damage":259
@@ -274,6 +294,7 @@
         "building":0,
         "english_name":"Minion_Horde",
         "first_attack":0,
+        "fly":2,
         "hp":190,
         "japanese_name":"ガーゴイルの群れ",
         "tower_damage":84
@@ -283,6 +304,7 @@
         "building":0,
         "english_name":"Mega_Minion",
         "first_attack":0,
+        "fly":2,
         "hp":695,
         "japanese_name":"メガガーゴイル",
         "tower_damage":0
@@ -292,6 +314,7 @@
         "building":0,
         "english_name":"Diger",
         "first_attack":0,
+        "fly":0,
         "hp":1000,
         "japanese_name":"ディガー",
         "tower_damage":64
@@ -301,6 +324,7 @@
         "building":0,
         "english_name":"Zap",
         "first_attack":0,
+        "fly":2,
         "hp":0,
         "japanese_name":"ザップ",
         "tower_damage":56
@@ -310,6 +334,7 @@
         "building":0,
         "english_name":"Lightning",
         "first_attack":0,
+        "fly":2,
         "hp":0,
         "japanese_name":"ライトニング",
         "tower_damage":293
@@ -319,6 +344,7 @@
         "building":0,
         "english_name":"Lava_Hound",
         "first_attack":0,
+        "fly":2,
         "hp":3150,
         "japanese_name":"ラヴァハウンド",
         "tower_damage":34
@@ -328,6 +354,7 @@
         "building":1,
         "english_name":"Inferno_Tower",
         "first_attack":0,
+        "fly":2,
         "hp":1452,
         "japanese_name":"インフェルノタワー",
         "tower_damage":0
@@ -337,6 +364,7 @@
         "building":0,
         "english_name":"PEKKA",
         "first_attack":0,
+        "fly":0,
         "hp":3458,
         "japanese_name":"ペッカ",
         "tower_damage":678
@@ -346,6 +374,7 @@
         "building":0,
         "english_name":"Bats",
         "first_attack":0,
+        "fly":2,
         "hp":67,
         "japanese_name":"コウモリの群れ",
         "tower_damage":67
@@ -355,6 +384,7 @@
         "building":0,
         "english_name":"Wizard",
         "first_attack":0,
+        "fly":1,
         "hp":598,
         "japanese_name":"ウィザード",
         "tower_damage":234
@@ -364,6 +394,7 @@
         "building":0,
         "english_name":"Magic_Archer",
         "first_attack":0,
+        "fly":1,
         "hp":490,
         "japanese_name":"マジックアーチャー",
         "tower_damage":96
@@ -373,6 +404,7 @@
         "building":0,
         "english_name":"Fire_Spirits",
         "first_attack":178,
+        "fly":2,
         "hp":91,
         "japanese_name":"ファイアスピリット",
         "tower_damage":0
@@ -382,6 +414,7 @@
         "building":0,
         "english_name":"Tornado",
         "first_attack":0,
+        "fly":2,
         "hp":0,
         "japanese_name":"トルネード",
         "tower_damage":0
@@ -389,8 +422,9 @@
     {
         "attack":260,
         "building":0,
-        "english_name":"Hight_Witch",
+        "english_name":"Dark_Witch",
         "first_attack":0,
+        "fly":0,
         "hp":750,
         "japanese_name":"ダークネクロ",
         "tower_damage":260
@@ -400,6 +434,7 @@
         "building":0,
         "english_name":"Furnace",
         "first_attack":0,
+        "fly":0,
         "hp":1003,
         "japanese_name":"オーブン",
         "tower_damage":0
@@ -409,6 +444,7 @@
         "building":0,
         "english_name":"Poison",
         "first_attack":0,
+        "fly":2,
         "hp":0,
         "japanese_name":"ポイズン",
         "tower_damage":27
@@ -418,6 +454,7 @@
         "building":1,
         "english_name":"Mortar",
         "first_attack":0,
+        "fly":0,
         "hp":1219,
         "japanese_name":"迫撃砲",
         "tower_damage":220
@@ -425,8 +462,9 @@
     {
         "attack":142,
         "building":0,
-        "english_name":"Flying Machine",
+        "english_name":"Flying_Machine",
         "first_attack":0,
+        "fly":2,
         "hp":510,
         "japanese_name":"ホバリング砲",
         "tower_damage":142
@@ -436,6 +474,7 @@
         "building":0,
         "english_name":"The_Log",
         "first_attack":0,
+        "fly":0,
         "hp":0,
         "japanese_name":"ローリングウッド",
         "tower_damage":84
@@ -443,8 +482,9 @@
     {
         "attack":0,
         "building":0,
-        "english_name":"Skeleton_Barrel",
+        "english_name":"Skeleton_Balloon",
         "first_attack":110,
+        "fly":2,
         "hp":636,
         "japanese_name":"スケルトンバレル",
         "tower_damage":0
@@ -454,6 +494,7 @@
         "building":1,
         "english_name":"X-Bow",
         "first_attack":0,
+        "fly":0,
         "hp":1383,
         "japanese_name":"巨大クロスボウ",
         "tower_damage":26
@@ -463,6 +504,7 @@
         "building":0,
         "english_name":"Inferno_Dragon",
         "first_attack":0,
+        "fly":2,
         "hp":1070,
         "japanese_name":"インフェルノドラゴン",
         "tower_damage":-320
@@ -472,6 +514,7 @@
         "building":0,
         "english_name":"Rocket",
         "first_attack":0,
+        "fly":2,
         "hp":0,
         "japanese_name":"ロケット",
         "tower_damage":432
@@ -481,6 +524,7 @@
         "building":0,
         "english_name":"Balloon",
         "first_attack":0,
+        "fly":2,
         "hp":1396,
         "japanese_name":"エアバルーン",
         "tower_damage":798
@@ -488,10 +532,11 @@
     {
         "attack":101,
         "building":0,
-        "english_name":"Royal_Recuruits",
+        "english_name":"Royal_Recruits",
         "first_attack":0,
+        "fly":0,
         "hp":639,
-        "japanese_name":"見習い親衛隊",
+        "japanese_name":"見習い親衛隊(1体)",
         "tower_damage":101
     },
     {
@@ -499,6 +544,7 @@
         "building":0,
         "english_name":"Three_Musketeers",
         "first_attack":0,
+        "fly":1,
         "hp":598,
         "japanese_name":"三銃士",
         "tower_damage":543
@@ -506,8 +552,9 @@
     {
         "attack":222,
         "building":0,
-        "english_name":"Mega_Night",
+        "english_name":"Mega_Knight",
         "first_attack":444,
+        "fly":0,
         "hp":3300,
         "japanese_name":"メガナイト",
         "tower_damage":222
@@ -515,8 +562,9 @@
     {
         "attack":0,
         "building":0,
-        "english_name":"Royal Giant",
+        "english_name":"Royal_Giant",
         "first_attack":0,
+        "fly":0,
         "hp":2544,
         "japanese_name":"ロイヤルジャイアント",
         "tower_damage":254
@@ -526,6 +574,7 @@
         "building":0,
         "english_name":"Dark_Prince",
         "first_attack":0,
+        "fly":0,
         "hp":1299,
         "japanese_name":"ダークプリンス",
         "tower_damage":207
@@ -535,6 +584,7 @@
         "building":0,
         "english_name":"Princess",
         "first_attack":0,
+        "fly":1,
         "hp":216,
         "japanese_name":"プリンセス",
         "tower_damage":140
@@ -544,6 +594,7 @@
         "building":0,
         "english_name":"Royal_Hog",
         "first_attack":0,
+        "fly":0,
         "hp":695,
         "japanese_name":"ロイヤルホグ",
         "tower_damage":56
@@ -551,8 +602,9 @@
     {
         "attack":90,
         "building":0,
-        "english_name":"Skeleton_Army",
+        "english_name":"Skeleton_Warriors",
         "first_attack":0,
+        "fly":0,
         "hp":289,
         "japanese_name":"盾の戦士",
         "tower_damage":90
@@ -560,8 +612,9 @@
     {
         "attack":139,
         "building":0,
-        "english_name":"Giant_Snowball",
+        "english_name":"Snowball",
         "first_attack":0,
+        "fly":2,
         "hp":0,
         "japanese_name":"巨大雪玉",
         "tower_damage":48
@@ -569,8 +622,9 @@
     {
         "attack":0,
         "building":0,
-        "english_name":"Ice_Gorem",
+        "english_name":"Ice_Golem",
         "first_attack":0,
+        "fly":0,
         "hp":994,
         "japanese_name":"アイスゴーレム",
         "tower_damage":70
@@ -580,6 +634,7 @@
         "building":0,
         "english_name":"Rumber_Jack",
         "first_attack":0,
+        "fly":0,
         "hp":1060,
         "japanese_name":"ランバージャック",
         "tower_damage":200
@@ -587,8 +642,9 @@
     {
         "attack":91,
         "building":0,
-        "english_name":"Ice_Spirit",
+        "english_name":"Snow_Spirits",
         "first_attack":0,
+        "fly":2,
         "hp":190,
         "japanese_name":"アイススピリット",
         "tower_damage":91
@@ -598,6 +654,7 @@
         "building":0,
         "english_name":"Freeze",
         "first_attack":0,
+        "fly":2,
         "hp":0,
         "japanese_name":"フリーズ",
         "tower_damage":33
@@ -607,6 +664,7 @@
         "building":0,
         "english_name":"Ice_Wizard",
         "first_attack":0,
+        "fly":1,
         "hp":590,
         "japanese_name":"アイスウィザード",
         "tower_damage":75
@@ -616,6 +674,7 @@
         "building":1,
         "english_name":"Elixir_Pump",
         "first_attack":0,
+        "fly":0,
         "hp":888,
         "japanese_name":"エリクサーポンプ",
         "tower_damage":0
@@ -625,6 +684,7 @@
         "building":0,
         "english_name":"Bowler",
         "first_attack":0,
+        "fly":0,
         "hp":1596,
         "japanese_name":"ボウラー",
         "tower_damage":239
@@ -634,6 +694,7 @@
         "building":0,
         "english_name":"Rascals",
         "first_attack":0,
+        "fly":1,
         "hp":1515,
         "japanese_name":"アウトロー",
         "tower_damage":110
@@ -643,6 +704,7 @@
         "building":0,
         "english_name":"Dart_Goblin",
         "first_attack":0,
+        "fly":1,
         "hp":216,
         "japanese_name":"吹き矢ゴブリン",
         "tower_damage":100
@@ -650,8 +712,9 @@
     {
         "attack":99,
         "building":0,
-        "english_name":"Goblin Gang",
+        "english_name":"Goblin_Gang",
         "first_attack":0,
+        "fly":0,
         "hp":167,
         "japanese_name":"ゴブリンギャング",
         "tower_damage":99
@@ -659,8 +722,9 @@
     {
         "attack":67,
         "building":0,
-        "english_name":"Goblin Giant",
+        "english_name":"Goblin_Giant",
         "first_attack":0,
+        "fly":0,
         "hp":2163,
         "japanese_name":"ゴブリンジャイアント",
         "tower_damage":121
@@ -668,8 +732,9 @@
     {
         "attack":183,
         "building":0,
-        "english_name":"Earth_Quake",
+        "english_name":"Earthquake",
         "first_attack":0,
+        "fly":0,
         "hp":0,
         "japanese_name":"アースクエイク",
         "tower_damage":732
@@ -679,6 +744,7 @@
         "building":0,
         "english_name":"Bandit",
         "first_attack":320,
+        "fly":0,
         "hp":780,
         "japanese_name":"アサシンユーノ",
         "tower_damage":160
@@ -686,8 +752,9 @@
     {
         "attack":254,
         "building":0,
-        "english_name":"Elite_Barbalians",
+        "english_name":"Elite_Barbarians",
         "first_attack":0,
+        "fly":0,
         "hp":970,
         "japanese_name":"エリートバーバリアン",
         "tower_damage":254
@@ -697,6 +764,7 @@
         "building":0,
         "english_name":"Ram_Rider",
         "first_attack":440,
+        "fly":1,
         "hp":1461,
         "japanese_name":"ラムライダー",
         "tower_damage":220
@@ -706,6 +774,7 @@
         "building":0,
         "english_name":"Cannon_Cart",
         "first_attack":0,
+        "fly":0,
         "hp":742,
         "japanese_name":"60式ムート",
         "tower_damage":168
@@ -715,6 +784,7 @@
         "building":0,
         "english_name":"Bomb_Tower",
         "first_attack":0,
+        "fly":0,
         "hp":1126,
         "japanese_name":"ボムタワー",
         "tower_damage":0
@@ -722,8 +792,9 @@
     {
         "attack":160,
         "building":1,
-        "english_name":"Fiserman",
+        "english_name":"Fisherman",
         "first_attack":0,
+        "fly":0,
         "hp":800,
         "japanese_name":"トリトン",
         "tower_damage":160
@@ -733,6 +804,7 @@
         "building":0,
         "english_name":"Tesla",
         "first_attack":0,
+        "fly":1,
         "hp":954,
         "japanese_name":"テスラ",
         "tower_damage":0
@@ -742,6 +814,7 @@
         "building":1,
         "english_name":"Sparky",
         "first_attack":0,
+        "fly":0,
         "hp":1200,
         "japanese_name":"スパーキー",
         "tower_damage":1100
@@ -751,6 +824,7 @@
         "building":0,
         "english_name":"Elixir_Golem",
         "first_attack":0,
+        "fly":0,
         "hp":1408,
         "japanese_name":"エリクサーゴーレム",
         "tower_damage":208
@@ -760,15 +834,17 @@
         "building":0,
         "english_name":"Electro_Dragon",
         "first_attack":0,
+        "fly":2,
         "hp":790,
         "japanese_name":"ライトニングドラゴン",
         "tower_damage":159
     },
     {
         "attack":73,
-        "building":0,
+        "building":3,
         "english_name":"Zappies",
         "first_attack":0,
+        "fly":1,
         "hp":440,
         "japanese_name":"ザッピー",
         "tower_damage":73
@@ -778,6 +854,7 @@
         "building":0,
         "english_name":"Electro_Wizard",
         "first_attack":75,
+        "fly":1,
         "hp":590,
         "japanese_name":"エレクトロウィザード",
         "tower_damage":96
@@ -787,6 +864,7 @@
         "building":0,
         "english_name":"Goblin_Cage",
         "first_attack":0,
+        "fly":0,
         "hp":800,
         "japanese_name":"ゴブリンの檻",
         "tower_damage":0
@@ -796,6 +874,7 @@
         "building":1,
         "english_name":"Goblin_Brawler",
         "first_attack":0,
+        "fly":0,
         "hp":853,
         "japanese_name":"リベンジゴブリン",
         "tower_damage":264
@@ -805,6 +884,7 @@
         "building":0,
         "english_name":"Royal_Ghost",
         "first_attack":0,
+        "fly":0,
         "hp":1000,
         "japanese_name":"ロイヤルゴースト",
         "tower_damage":216
@@ -814,8 +894,9 @@
         "building":0,
         "english_name":"Executioner",
         "first_attack":0,
+        "fly":1,
         "hp":960,
-        "japanese_name":"執行人ファルチェ",
+        "japanese_name":"ファルチェ",
         "tower_damage":518
     }
 ]

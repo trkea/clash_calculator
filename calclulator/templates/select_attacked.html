@@ -5,12 +5,11 @@
     <link rel="stylesheet" href="{% static '/css/select_attacked.css' %}">
 </head>
 {% for character in characters %}
-<div class="card_img">
+<a href="http://127.0.0.1:8000/clash/result?attacker={{ attacker }}&defencer={{ character.english_name }}">
     <img class="card" width="75" height="90" src="/static/img/{{ character.english_name }}.png" %}/>
-</div>
+</a>
 {% endfor %}
 <h1 class="attacked">select attacked</h1>
-
 <form method="GET" name="asa" class="post-form" action="/clash/result">
     {% csrf_token %}
     {{ form.as_p}}

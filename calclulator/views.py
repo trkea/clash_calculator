@@ -1,6 +1,7 @@
 from django.shortcuts import render
 import requests
 import json
+from . import clash_calculator
 
 class DictMapper(dict):
     def __getattr__(self, name):
@@ -21,13 +22,18 @@ def select_attacker(request):
 
 def select_attacked(request):
     f = open('calclulator/character.json', 'r')
+    attacker = request.GET.get('attacker')
     characters = json.load(f)
     chara_list = []
     for character in characters:
         chara = DictMapper(character)
         chara_list.append(chara)
-    return render(request, 'select_attacked.html', {'characters': chara_list})
+    return render(request, 'select_attacked.html', {'characters': chara_list, 'attacker': attacker})
 
 def result(request):
-    return render(request, 'result.html')
+    clash = clash_calculator.ClashCalculator('calclulator/character.json')
+    attacker = clash.load_character(request.GET.get('attacker'))
+    defencer = clash.load_character(request.GET.get('defencer'))
+    times = clash.calc_damage(attacker, defencer)
+    return render(request, 'result.html', {'attacker': attacker, 'defencer': defencer, 'times': times})
 
