@@ -6,9 +6,9 @@
 </head>
 <h1>result</h1>
 {% if times != False %}
-<p>{{ attacker.japanese_name }}が{{ defencer.japanese_name }}を倒すには、</p>
-<b>{{ times }}回</b>
-<p>の攻撃が必要です</p>
+<p class="result">{{ attacker.japanese_name }}が{{ defencer.japanese_name }}を倒すには、</p>
+<p class="result attack_times">{{ times }}回</p>
+<p class="result">の攻撃が必要です</p>
 {% else %}
 <p>{{ attacker.japanese_name }}が{{ defencer.japanese_name }}を倒すことはできません</p>
 {% endif %}

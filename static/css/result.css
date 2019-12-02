@@ -1,3 +1,12 @@
 .top {
     color:#996633;
 }
+
+.result {
+    text-align: center;
+    font-size: 150%;
+}
+
+.attack_times {
+    font-size: 500%;
+}
