@@ -1,0 +1,27 @@
+.question-title {
+    text-align: center;
+    font-weight: 900;
+    font-size: 200%;
+}
+
+.card-list {
+    background-image: url('/static/img/wood.jpg');
+}
+
+.attacked {
+    color: #888800;
+}
+
+.card_img {
+    height: 30px;
+    width: 30px;
+}
+
+
+img:hover {
+	opacity: 0.5 ;
+}
+
+body {
+    background-image: url('/static/img/wood_back.jpg');
+}

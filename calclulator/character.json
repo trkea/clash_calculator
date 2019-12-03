@@ -340,14 +340,14 @@
         "tower_damage":293
     },
     {
-        "attack":45,
+        "attack":0,
         "building":0,
         "english_name":"Lava_Hound",
         "first_attack":0,
         "fly":2,
         "hp":3150,
         "japanese_name":"ラヴァハウンド",
-        "tower_damage":34
+        "tower_damage":45
     },
     {
         "attack":-1673,

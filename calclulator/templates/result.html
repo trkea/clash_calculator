@@ -4,13 +4,18 @@
 <head>
     <link rel="stylesheet" href="{% static '/css/result.css' %}">
 </head>
-<h1>result</h1>
+<a href="http://127.0.0.1:8000/clash/result?attacker={{ attacker.japanese_name }}&defencer={{ character.english_name }}"></a>
+<div class="vs_image">
+<img class="card" width="105" height="126" src="/static/img/{{ attacker.english_name }}.png" %}/> 
+<span class="VS">VS</span>
+<img class="card" width="105" height="126" src="/static/img/{{ defencer.english_name }}.png" %}/> 
+</div>
 {% if times != False %}
-<p class="result">{{ attacker.japanese_name }}が{{ defencer.japanese_name }}を倒すには、</p>
-<p class="result attack_times">{{ times }}回</p>
-<p class="result">の攻撃が必要です</p>
+<p class="result"><span class="bold">{{ attacker.japanese_name }}</span>が<span class="bold">{{ defencer.japanese_name }}</span>を倒すには、</p>
+<p class="attack_times">{{ times }}回</p>
+<p class="result">の攻撃が必要です。</p>
 {% else %}
-<p>{{ attacker.japanese_name }}が{{ defencer.japanese_name }}を倒すことはできません</p>
+<p class="result"><span class="bold">{{ attacker.japanese_name }}</span>が<span class="bold">{{ defencer.japanese_name }}</span>を倒すことはできません</p>
 {% endif %}
 <form method="GET" name="asa" class="post-form" action="/clash/attacker">
     {% csrf_token %}

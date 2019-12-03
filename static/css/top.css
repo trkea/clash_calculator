@@ -1,3 +1,7 @@
-.top {
-    color:#996633;
+.button {
+    text-align: center;
+}
+
+body {
+    background-image: url('/static/img/wood_back.jpg');
 }

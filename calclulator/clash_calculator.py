@@ -75,8 +75,8 @@ class ClashCalculator:
         return attack_times
 
 if __name__ == '__main__':
-    clash = ClashCalculator()
-    bowler = clash.load_character('cannon')
-    fisherman = clash.load_character('barbarian_hut')
+    clash = ClashCalculator('./character.json')
+    bowler = clash.load_character('Lava_Hound')
+    fisherman = clash.load_character('Lava_Hound')
     times = clash.calc_damage(fisherman, bowler)
     print(times)

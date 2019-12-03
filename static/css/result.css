@@ -8,5 +8,31 @@
 }
 
 .attack_times {
+    text-align: center;
     font-size: 500%;
+    margin-bottom: -2.6em;
+}
+
+.bold {
+	font-weight: 900;
+	font-size: 130%;
+	color: black;
+}
+
+.button {
+    text-align: center;
+}
+
+.vs {
+    margin-right: 1%;
+    margin-left: 1%;
+    font-size: 500%;
+}
+
+.vs_image {
+    text-align: center;
+}
+
+body {
+    background-image: url('/static/img/wood_back.jpg');
 }
