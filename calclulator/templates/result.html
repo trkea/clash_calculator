@@ -4,6 +4,7 @@
 <head>
     <link rel="stylesheet" href="{% static '/css/result.css' %}">
 </head>
+<br>
 <a href="http://127.0.0.1:8000/clash/result?attacker={{ attacker.japanese_name }}&defencer={{ character.english_name }}"></a>
 <div class="vs_image">
 <img class="card" width="105" height="126" src="/static/img/{{ attacker.english_name }}.png" %}/> 
@@ -17,9 +18,31 @@
 {% else %}
 <p class="result"><span class="bold">{{ attacker.japanese_name }}</span>が<span class="bold">{{ defencer.japanese_name }}</span>を倒すことはできません</p>
 {% endif %}
-<form method="GET" name="asa" class="post-form" action="/clash/attacker">
-    {% csrf_token %}
-    {{ form.as_p}}
-<div class="button"><input type="submit" value="もう一度"></div>
-</form>
+<a href="http://127.0.0.1:8000/attacker">
+<div class="couche1" id="blue1">
+    	
+    	<div class="couche2" id="blue2">
+
+    		<div class="couche23" id="blue23">
+    	
+	    		<div class="couche3" id="blue3">
+	    	
+	    			<div class="couche4" id="blue4">
+
+						<span class="battle" id="battle_blue">RETRY</span>
+	    				
+	    				<div class="couche5" id="blue5">
+	    				
+	    				</div>
+	    	
+	    			</div>
+
+	    		</div>
+
+			</div>
+    	
+    	</div>
+ 	
+	</div>
+</a>
 {% endblock %}

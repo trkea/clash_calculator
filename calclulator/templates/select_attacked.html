@@ -7,7 +7,7 @@
 <h1 class="question-title">誰を倒す？</h1>
 <div class="card-list">
 {% for character in characters %}
-<a href="http://127.0.0.1:8000/clash/result?attacker={{ attacker }}&defencer={{ character.english_name }}">
+<a href="http://127.0.0.1:8000/result?attacker={{ attacker }}&defencer={{ character.english_name }}">
     <img class="card" width="75" height="90" src="/static/img/{{ character.english_name }}.png" %}/>
 </a>
 {% endfor %}
