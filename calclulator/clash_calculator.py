@@ -14,7 +14,6 @@ class ClashCalculator:
                 return character
         return False
 
-
     def calc_damage(self, attacker, defencer):
         attack_times = 0
         # アタッカーのタイプ

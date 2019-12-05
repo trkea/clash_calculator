@@ -18,5 +18,5 @@ from django.conf.urls import include,url
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'clash/', include('calclulator.urls')),
+    url(r'', include('calclulator.urls')),
 ]
