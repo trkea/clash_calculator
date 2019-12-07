@@ -25,7 +25,7 @@ SECRET_KEY = 'oh*f(6%o+!+b%8yt6jpi(9x4)c^3#xn9j&=n$u^n@1ixy-=(tk'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
