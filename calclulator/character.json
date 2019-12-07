@@ -15,7 +15,7 @@
         "english_name":"Minions",
         "first_attack":0,
         "fly":2,
-        "hp":190,
+        "hp":570,
         "japanese_name":"ガーゴイル",
         "tower_damage":84
     },
@@ -25,7 +25,7 @@
         "english_name":"Archers",
         "first_attack":0,
         "fly":1,
-        "hp":252,
+        "hp":504,
         "japanese_name":"アーチャー",
         "tower_damage":89
     },
@@ -65,7 +65,7 @@
         "english_name":"Wall_Breaker",
         "first_attack":0,
         "fly":0,
-        "hp":275,
+        "hp":550,
         "japanese_name":"ウォールブレイカー",
         "tower_damage":400
     },
@@ -115,7 +115,7 @@
         "english_name":"Goblins",
         "first_attack":0,
         "fly":0,
-        "hp":167,
+        "hp":507,
         "japanese_name":"ゴブリン",
         "tower_damage":106
     },
@@ -125,7 +125,7 @@
         "english_name":"Spear_Goblins",
         "first_attack":0,
         "fly":1,
-        "hp":110,
+        "hp":330,
         "japanese_name":"槍ゴブリン",
         "tower_damage":67
     },
@@ -155,7 +155,7 @@
         "english_name":"Goblin_Barrel",
         "first_attack":0,
         "fly":0,
-        "hp":167,
+        "hp":501,
         "japanese_name":"ゴブリンバレル",
         "tower_damage":106
     },
@@ -185,7 +185,7 @@
         "english_name":"Skeletons",
         "first_attack":0,
         "fly":0,
-        "hp":67,
+        "hp":201,
         "japanese_name":"スケルトン",
         "tower_damage":67
     },
@@ -235,7 +235,7 @@
         "english_name":"Barbarians",
         "first_attack":0,
         "fly":0,
-        "hp":555,
+        "hp":2795,
         "japanese_name":"バーバリアン",
         "tower_damage":159
     },
@@ -275,7 +275,7 @@
         "english_name":"Battle_Ram",
         "first_attack":0,
         "fly":0,
-        "hp":756,
+        "hp":1866,
         "japanese_name":"攻城バーバリアン",
         "tower_damage":440
     },
@@ -295,7 +295,7 @@
         "english_name":"Minion_Horde",
         "first_attack":0,
         "fly":2,
-        "hp":190,
+        "hp":950,
         "japanese_name":"ガーゴイルの群れ",
         "tower_damage":84
     },
@@ -375,7 +375,7 @@
         "english_name":"Bats",
         "first_attack":0,
         "fly":2,
-        "hp":67,
+        "hp":335,
         "japanese_name":"コウモリの群れ",
         "tower_damage":67
     },
@@ -535,8 +535,8 @@
         "english_name":"Royal_Recruits",
         "first_attack":0,
         "fly":0,
-        "hp":639,
-        "japanese_name":"見習い親衛隊(1体)",
+        "hp":2640,
+        "japanese_name":"見習い親衛隊",
         "tower_damage":101
     },
     {
@@ -545,7 +545,7 @@
         "english_name":"Three_Musketeers",
         "first_attack":0,
         "fly":1,
-        "hp":598,
+        "hp":1794,
         "japanese_name":"三銃士",
         "tower_damage":543
     },
@@ -605,7 +605,7 @@
         "english_name":"Skeleton_Warriors",
         "first_attack":0,
         "fly":0,
-        "hp":289,
+        "hp":867,
         "japanese_name":"盾の戦士",
         "tower_damage":90
     },
@@ -755,7 +755,7 @@
         "english_name":"Elite_Barbarians",
         "first_attack":0,
         "fly":0,
-        "hp":970,
+        "hp":1940,
         "japanese_name":"エリートバーバリアン",
         "tower_damage":254
     },
