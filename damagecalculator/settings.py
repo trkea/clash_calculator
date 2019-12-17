@@ -123,7 +123,6 @@ USE_TZ = False
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # add
 try:
@@ -133,7 +132,7 @@ except ImportError:
 
 # add
 if not DEBUG:
-    SECRET_KEY = os.environ['SECRET_KEY']
+    SECRET_KEY="oh*f(6%o+!+b%8yt6jpi(9x4)c^3#xn9j&=n$u^n@1ixy-=(tk"
     import django_heroku 
     django_heroku.settings(locals()) 
 
@@ -152,3 +151,5 @@ db_from_env = dj_database_url.config(conn_max_age=600, ssl_require=True)
 DATABASES['default'].update(db_from_env)
 DISABLE_COLLECTSTATIC=1
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+DEBUG_COLLECTSTATIC=1
+DISABLE_COLLECTSTATIC=1
