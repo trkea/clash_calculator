@@ -14,9 +14,19 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.conf.urls import include,url
+from django.conf.urls import include,url,handler500
+from django.http import  HttpResponseServerError
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'', include('calclulator.urls')),
 ]
+
+
+def my_customized_server_error(request, template_name='500.html'):
+    import sys
+    from django.views import debug
+    error_html = debug.technical_500_response(request, *sys.exc_info()).content
+    return HttpResponseServerError(error_html)
+
+handler500 = my_customized_server_error
