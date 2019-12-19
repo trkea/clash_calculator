@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="{% static 'css/result.css' %}">
 </head>
 <br>
-<a href="http://127.0.0.1:8000/clash/result?attacker={{ attacker.japanese_name }}&defencer={{ character.english_name }}"></a>
+<a href="{{ url }}/clash/result?attacker={{ attacker.japanese_name }}&defencer={{ character.english_name }}"></a>
 <div class="vs_image">
 <img class="card" width="105" height="126" src="/static/img/{{ attacker.english_name }}.png" %}/> 
 <span class="VS">VS</span>
@@ -18,7 +18,7 @@
 {% else %}
 <p class="result"><span class="bold">{{ attacker.japanese_name }}</span>が<span class="bold">{{ defencer.japanese_name }}</span>を倒すことはできません</p>
 {% endif %}
-<a href="http://127.0.0.1:8000/attacker">
+<a href="{{ url }}/attacker">
 <div class="couche1" id="blue1">
     	
     	<div class="couche2" id="blue2">
