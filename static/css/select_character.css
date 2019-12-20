@@ -24,8 +24,8 @@ img:hover {
 
 @media screen and (max-width: 767px) { 
     .card {
-        width:120px;
-        height: 144px;
+        width:145px;
+        height: 174px;
     }
 }
 
@@ -34,7 +34,7 @@ img:hover {
         width: 100%;
     }
 
-    .card {
+       .card {
         width:120px;
         height: 144px;
     }
