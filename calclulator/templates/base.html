@@ -4,10 +4,11 @@
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
 	<meta http-equiv="Content-type" content="text/html; charset=shift-jis" /> 
     <link rel="stylesheet" href="{% static 'css/base.css'%}">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
 </head>
 <body>
-<header style="background-color:#99CC33;text-align: center;">
-<a href="{{ url }}" style="text-decoration: none;text-align: center;"><img src="/static/img/clash_calculator.png" height="50"></a>
+<header>
+<a href="{{ url }}"><img src="/static/img/clash_calculator.png" class="header-img"></a>
 </header>
 {% block content %}
 {% endblock %}

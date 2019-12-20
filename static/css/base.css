@@ -16,7 +16,13 @@ body {
 @media screen and (max-width: 767px) { 
 
    .header-img {
-       height: 5%;
+       height: 8%;
    }
 
 }
+
+@media screen and (max-width: 1179px) { 
+    .header-img {
+        height: 10%;
+    }
+} 
