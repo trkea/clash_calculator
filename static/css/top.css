@@ -178,3 +178,26 @@ body {
 	margin-left:75px;
 }
 
+.phone_area {
+	display: none;
+}
+
+
+summary {
+	font-size: 180%;
+}
+
+@media screen and (max-width: 767px) { 
+.title_jp {
+	font-size: 300%;
+}
+
+summary {
+	text-align:center;
+}
+
+.phone_area {
+	display: block;
+}
+}
+
