@@ -22,7 +22,16 @@ img:hover {
 	opacity: 0.5 ;
 }
 
-body {
-    background-image: url('/static/img/wood_back.jpg');
+@media screen and (max-width: 767px) { 
+    .card-list {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1179px) { 
+    .card-list {
+        width: 100%;
+    }
+
 }
 

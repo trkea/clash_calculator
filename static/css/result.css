@@ -34,9 +34,7 @@
     text-align: center;
 }
 
-body {
-    background-image: url('/static/img/wood_back.jpg');
-}
+
 
 @import 'https://fonts.googleapis.com/css?family=Bungee';
 
@@ -237,4 +235,11 @@ body {
              	-2px 4px 1px #002F83,
              	2px 3px 2px #002F83;
     color:#FEFEFE;
+}
+
+@media screen and (max-width: 767px) { 
+	.result {
+		size: 80%;
+	}
+	
 }

@@ -1,16 +1,22 @@
 header {
-    color: green;
+   background-color:#99CC33;
+   text-align: center;
+}
+
+.header-img {
+    height: 7%;
+}
+
+body {
+    background-image: url('/static/img/wood_back.jpg');
 }
 
 /* スマホ */
+
 @media screen and (max-width: 767px) { 
-    #menu-bg {
-    color: aqua;
-    width: 500px;
+
+   .header-img {
+       height: 5%;
    }
 
-@media screen and (max-width: 1179px) { 
-    #menu-bg {
-    color: aqua;
-    }
-
+}
