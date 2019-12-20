@@ -9,6 +9,7 @@ header {
 
 body {
     background-image: url('/static/img/wood_back.jpg');
+    width: 100%;
 }
 
 /* スマホ */

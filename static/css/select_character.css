@@ -12,19 +12,20 @@
     color: #888800;
 }
 
-.card_img {
-    height: 30px;
-    width: 30px;
-}
-
 
 img:hover {
 	opacity: 0.5 ;
 }
 
+.card {
+    width:75px;
+    height:90px;
+}
+
 @media screen and (max-width: 767px) { 
-    .card-list {
-        width: 100%;
+    .card {
+        width:120px;
+        height: 144px;
     }
 }
 
@@ -32,6 +33,12 @@ img:hover {
     .card-list {
         width: 100%;
     }
+
+    .card {
+        width:120px;
+        height: 144px;
+    }
+
 
 }
 
