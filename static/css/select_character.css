@@ -24,19 +24,16 @@ img:hover {
 
 @media screen and (max-width: 767px) { 
     .card {
-        width:145px;
-        height: 174px;
+        width:170px;
+        height: 204px;
     }
 }
 
 @media screen and (max-width: 1179px) { 
-    .card-list {
-        width: 100%;
-    }
 
        .card {
-        width:120px;
-        height: 144px;
+        width:170px;
+        height: 204px;
     }
 
 
