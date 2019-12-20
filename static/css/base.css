@@ -2,5 +2,15 @@ header {
     color: green;
 }
 
+/* スマホ */
+@media screen and (max-width: 767px) { 
+    #menu-bg {
+    color: aqua;
+    width: 500px;
+   }
 
+@media screen and (max-width: 1179px) { 
+    #menu-bg {
+    color: aqua;
+    }
 
