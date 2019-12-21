@@ -15,7 +15,7 @@
         "english_name":"Minions",
         "first_attack":0,
         "fly":2,
-        "hp":570,
+        "hp":190,
         "japanese_name":"ガーゴイル",
         "tower_damage":84
     },
@@ -25,7 +25,7 @@
         "english_name":"Archers",
         "first_attack":0,
         "fly":1,
-        "hp":504,
+        "hp":252,
         "japanese_name":"アーチャー",
         "tower_damage":89
     },
@@ -65,7 +65,7 @@
         "english_name":"Wall_Breaker",
         "first_attack":0,
         "fly":0,
-        "hp":550,
+        "hp":275,
         "japanese_name":"ウォールブレイカー",
         "tower_damage":400
     },
@@ -115,7 +115,7 @@
         "english_name":"Goblins",
         "first_attack":0,
         "fly":0,
-        "hp":507,
+        "hp":167,
         "japanese_name":"ゴブリン",
         "tower_damage":106
     },
@@ -125,7 +125,7 @@
         "english_name":"Spear_Goblins",
         "first_attack":0,
         "fly":1,
-        "hp":330,
+        "hp":110,
         "japanese_name":"槍ゴブリン",
         "tower_damage":67
     },
@@ -155,7 +155,7 @@
         "english_name":"Goblin_Barrel",
         "first_attack":0,
         "fly":0,
-        "hp":501,
+        "hp":167,
         "japanese_name":"ゴブリンバレル",
         "tower_damage":106
     },
@@ -185,7 +185,7 @@
         "english_name":"Skeletons",
         "first_attack":0,
         "fly":0,
-        "hp":201,
+        "hp":67,
         "japanese_name":"スケルトン",
         "tower_damage":67
     },
@@ -235,7 +235,7 @@
         "english_name":"Barbarians",
         "first_attack":0,
         "fly":0,
-        "hp":2795,
+        "hp":555,
         "japanese_name":"バーバリアン",
         "tower_damage":159
     },
@@ -275,7 +275,7 @@
         "english_name":"Battle_Ram",
         "first_attack":0,
         "fly":0,
-        "hp":1866,
+        "hp":756,
         "japanese_name":"攻城バーバリアン",
         "tower_damage":440
     },
@@ -295,7 +295,7 @@
         "english_name":"Minion_Horde",
         "first_attack":0,
         "fly":2,
-        "hp":950,
+        "hp":190,
         "japanese_name":"ガーゴイルの群れ",
         "tower_damage":84
     },
@@ -350,7 +350,7 @@
         "tower_damage":45
     },
     {
-        "attack":-1673,
+        "attack":0,
         "building":1,
         "english_name":"Inferno_Tower",
         "first_attack":0,
@@ -375,7 +375,7 @@
         "english_name":"Bats",
         "first_attack":0,
         "fly":2,
-        "hp":335,
+        "hp":67,
         "japanese_name":"コウモリの群れ",
         "tower_damage":67
     },
@@ -500,7 +500,7 @@
         "tower_damage":26
     },
     {
-        "attack":-320,
+        "attack":0,
         "building":0,
         "english_name":"Inferno_Dragon",
         "first_attack":0,
@@ -535,7 +535,7 @@
         "english_name":"Royal_Recruits",
         "first_attack":0,
         "fly":0,
-        "hp":2640,
+        "hp":639,
         "japanese_name":"見習い親衛隊",
         "tower_damage":101
     },
@@ -545,7 +545,7 @@
         "english_name":"Three_Musketeers",
         "first_attack":0,
         "fly":1,
-        "hp":1794,
+        "hp":598,
         "japanese_name":"三銃士",
         "tower_damage":543
     },
@@ -605,7 +605,7 @@
         "english_name":"Skeleton_Warriors",
         "first_attack":0,
         "fly":0,
-        "hp":867,
+        "hp":289,
         "japanese_name":"盾の戦士",
         "tower_damage":90
     },
@@ -755,7 +755,7 @@
         "english_name":"Elite_Barbarians",
         "first_attack":0,
         "fly":0,
-        "hp":1940,
+        "hp":970,
         "japanese_name":"エリートバーバリアン",
         "tower_damage":254
     },
@@ -781,7 +781,7 @@
     },
     {
         "attack":184,
-        "building":0,
+        "building":1,
         "english_name":"Bomb_Tower",
         "first_attack":0,
         "fly":0,
@@ -791,7 +791,7 @@
     },
     {
         "attack":160,
-        "building":1,
+        "building":0,
         "english_name":"Fisherman",
         "first_attack":0,
         "fly":0,
@@ -801,7 +801,7 @@
     },
     {
         "attack":190,
-        "building":0,
+        "building":1,
         "english_name":"Tesla",
         "first_attack":0,
         "fly":1,
@@ -811,7 +811,7 @@
     },
     {
         "attack":1100,
-        "building":1,
+        "building":0,
         "english_name":"Sparky",
         "first_attack":0,
         "fly":0,
@@ -841,7 +841,7 @@
     },
     {
         "attack":73,
-        "building":3,
+        "building":0,
         "english_name":"Zappies",
         "first_attack":0,
         "fly":1,
@@ -861,7 +861,7 @@
     },
     {
         "attack":0,
-        "building":0,
+        "building":1,
         "english_name":"Goblin_Cage",
         "first_attack":0,
         "fly":0,
@@ -871,7 +871,7 @@
     },
     {
         "attack":264,
-        "building":1,
+        "building":0,
         "english_name":"Goblin_Brawler",
         "first_attack":0,
         "fly":0,
