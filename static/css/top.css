@@ -31,6 +31,15 @@ body {
 	text-align: center;
 }
 
+.contact {
+	color: white;
+	background-color: #3399FF;
+}
+
+.contact:hover {
+	opacity: 0.5;
+}
+
 /*clash royale button*/
 @import 'https://fonts.googleapis.com/css?family=Bungee';
 
