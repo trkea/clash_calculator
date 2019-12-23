@@ -310,14 +310,14 @@
         "tower_damage":0
     },
     {
-        "attack":160,
+        "attack":258,
         "building":0,
-        "english_name":"Diger",
+        "english_name":"Mega_Minion",
         "first_attack":0,
-        "fly":0,
-        "hp":1000,
-        "japanese_name":"ディガー",
-        "tower_damage":64
+        "fly":2,
+        "hp":695,
+        "japanese_name":"メガガーゴイル",
+        "tower_damage":0
     },
     {
         "attack":159,
@@ -898,5 +898,15 @@
         "hp":960,
         "japanese_name":"ファルチェ",
         "tower_damage":518
+    },
+    {
+        "attack":123,
+        "building":0,
+        "english_name":"battle_healer",
+        "first_attack":0,
+        "fly":0,
+        "hp":1584,
+        "japanese_name":"バトルヒーラー",
+        "tower_damage":123
     }
 ]
