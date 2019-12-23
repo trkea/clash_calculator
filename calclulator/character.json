@@ -310,16 +310,6 @@
         "tower_damage":0
     },
     {
-        "attack":258,
-        "building":0,
-        "english_name":"Mega_Minion",
-        "first_attack":0,
-        "fly":2,
-        "hp":695,
-        "japanese_name":"メガガーゴイル",
-        "tower_damage":0
-    },
-    {
         "attack":159,
         "building":0,
         "english_name":"Zap",
