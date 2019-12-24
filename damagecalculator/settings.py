@@ -138,7 +138,7 @@ except ImportError:
 
 # add
 if not DEBUG:
-    SECRET_KEY="oh*f(6%o+!+b%8yt6jpi(9x4)c^3#xn9j&=n$u^n@1ixy-=(tk"
+    SECRET_KEY=os.environ['SECRET_KEY']
     import django_heroku 
     django_heroku.settings(locals()) 
 
