@@ -2,6 +2,7 @@
     {
         "attack":0,
         "building":0,
+        "damage_sec":140,
         "english_name":"Giant",
         "first_attack":0,
         "fly":0,
@@ -12,6 +13,7 @@
     {
         "attack":84,
         "building":0,
+        "damage_sec":84,
         "english_name":"Minions",
         "first_attack":0,
         "fly":2,
@@ -22,6 +24,7 @@
     {
         "attack":89,
         "building":0,
+        "damage_sec":74,
         "english_name":"Archers",
         "first_attack":0,
         "fly":1,
@@ -32,6 +35,7 @@
     {
         "attack":167,
         "building":0,
+        "damage_sec":139,
         "english_name":"Knight",
         "first_attack":0,
         "fly":0,
@@ -42,6 +46,7 @@
     {
         "attack":689,
         "building":0,
+        "damage_sec":-1,
         "english_name":"Fireball",
         "first_attack":0,
         "fly":2,
@@ -52,6 +57,7 @@
     {
         "attack":243,
         "building":0,
+        "damage_sec":-1,
         "english_name":"Arrows",
         "first_attack":0,
         "fly":2,
@@ -62,6 +68,7 @@
     {
         "attack":0,
         "building":0,
+        "damage_sec":-1,
         "english_name":"Wall_Breaker",
         "first_attack":0,
         "fly":0,
@@ -72,6 +79,7 @@
     {
         "attack":598,
         "building":0,
+        "damage_sec":332,
         "english_name":"Mini_Pekka",
         "first_attack":0,
         "fly":0,
@@ -82,6 +90,7 @@
     {
         "attack":181,
         "building":0,
+        "damage_sec":164,
         "english_name":"Musketeer",
         "first_attack":0,
         "fly":1,
@@ -92,6 +101,7 @@
     {
         "attack":133,
         "building":0,
+        "damage_sec":88,
         "english_name":"Baby_Dragon",
         "first_attack":0,
         "fly":2,
@@ -102,8 +112,9 @@
     {
         "attack":325,
         "building":0,
+        "damage_sec":232,
         "english_name":"Prince",
-        "first_attack":650,
+        "first_attack":651,
         "fly":0,
         "hp":1615,
         "japanese_name":"プリンス",
@@ -112,6 +123,7 @@
     {
         "attack":106,
         "building":0,
+        "damage_sec":90,
         "english_name":"Goblins",
         "first_attack":0,
         "fly":0,
@@ -122,6 +134,7 @@
     {
         "attack":67,
         "building":0,
+        "damage_sec":39,
         "english_name":"Spear_Goblins",
         "first_attack":0,
         "fly":1,
@@ -132,6 +145,7 @@
     {
         "attack":0,
         "building":0,
+        "damage_sec":-1,
         "english_name":"Hog_Rider",
         "first_attack":0,
         "fly":0,
@@ -142,6 +156,7 @@
     {
         "attack":690,
         "building":0,
+        "damage_sec":690,
         "english_name":"Hunter",
         "first_attack":0,
         "fly":1,
@@ -152,6 +167,7 @@
     {
         "attack":106,
         "building":0,
+        "damage_sec":90,
         "english_name":"Goblin_Barrel",
         "first_attack":0,
         "fly":0,
@@ -162,6 +178,7 @@
     {
         "attack":0,
         "building":1,
+        "damage_sec":-1,
         "english_name":"Goblin_Hut",
         "first_attack":0,
         "fly":0,
@@ -172,6 +189,7 @@
     {
         "attack":221,
         "building":0,
+        "damage_sec":147,
         "english_name":"Valkyrie",
         "first_attack":0,
         "fly":0,
@@ -182,6 +200,7 @@
     {
         "attack":67,
         "building":0,
+        "damage_sec":67,
         "english_name":"Skeletons",
         "first_attack":0,
         "fly":0,
@@ -192,6 +211,7 @@
     {
         "attack":271,
         "building":0,
+        "damage_sec":142,
         "english_name":"Bomber",
         "first_attack":0,
         "fly":0,
@@ -202,6 +222,7 @@
     {
         "attack":0,
         "building":1,
+        "damage_sec":-1,
         "english_name":"Tombstone",
         "first_attack":0,
         "fly":0,
@@ -212,6 +233,7 @@
     {
         "attack":172,
         "building":0,
+        "damage_sec":114,
         "english_name":"Giant_Skeleton",
         "first_attack":0,
         "fly":0,
@@ -222,6 +244,7 @@
     {
         "attack":69,
         "building":0,
+        "damage_sec":167,
         "english_name":"Witch",
         "first_attack":0,
         "fly":1,
@@ -232,6 +255,7 @@
     {
         "attack":159,
         "building":0,
+        "damage_sec":113,
         "english_name":"Barbarians",
         "first_attack":0,
         "fly":0,
@@ -242,6 +266,7 @@
     {
         "attack":159,
         "building":0,
+        "damage_sec":113,
         "english_name":"Barbarian_Barrel",
         "first_attack":239,
         "fly":0,
@@ -252,6 +277,7 @@
     {
         "attack":127,
         "building":1,
+        "damage_sec":167,
         "english_name":"Cannon",
         "first_attack":0,
         "fly":0,
@@ -262,6 +288,7 @@
     {
         "attack":0,
         "building":1,
+        "damage_sec":0,
         "english_name":"Barbarian_Hut",
         "first_attack":0,
         "fly":0,
@@ -272,6 +299,7 @@
     {
         "attack":0,
         "building":0,
+        "damage_sec":0,
         "english_name":"Battle_Ram",
         "first_attack":0,
         "fly":0,
@@ -282,6 +310,7 @@
     {
         "attack":0,
         "building":0,
+        "damage_sec":103,
         "english_name":"Golem",
         "first_attack":0,
         "fly":0,
@@ -292,6 +321,7 @@
     {
         "attack":84,
         "building":0,
+        "damage_sec":84,
         "english_name":"Minion_Horde",
         "first_attack":0,
         "fly":2,
@@ -302,26 +332,29 @@
     {
         "attack":258,
         "building":0,
+        "damage_sec":161,
         "english_name":"Mega_Minion",
         "first_attack":0,
         "fly":2,
         "hp":695,
         "japanese_name":"メガガーゴイル",
-        "tower_damage":0
+        "tower_damage":258
     },
     {
-        "attack":258,
+        "attack":160,
         "building":0,
-        "english_name":"Mega_Minion",
+        "damage_sec":133,
+        "english_name":"Diger",
         "first_attack":0,
-        "fly":2,
-        "hp":695,
-        "japanese_name":"メガガーゴイル",
-        "tower_damage":0
+        "fly":0,
+        "hp":1000,
+        "japanese_name":"ディガー",
+        "tower_damage":64
     },
     {
         "attack":159,
         "building":0,
+        "damage_sec":0,
         "english_name":"Zap",
         "first_attack":0,
         "fly":2,
@@ -332,6 +365,7 @@
     {
         "attack":877,
         "building":0,
+        "damage_sec":0,
         "english_name":"Lightning",
         "first_attack":0,
         "fly":2,
@@ -342,6 +376,7 @@
     {
         "attack":0,
         "building":0,
+        "damage_sec":0,
         "english_name":"Lava_Hound",
         "first_attack":0,
         "fly":2,
@@ -352,6 +387,7 @@
     {
         "attack":0,
         "building":1,
+        "damage_sec":0,
         "english_name":"Inferno_Tower",
         "first_attack":0,
         "fly":2,
@@ -362,6 +398,7 @@
     {
         "attack":678,
         "building":0,
+        "damage_sec":376,
         "english_name":"PEKKA",
         "first_attack":0,
         "fly":0,
@@ -372,6 +409,7 @@
     {
         "attack":67,
         "building":0,
+        "damage_sec":60,
         "english_name":"Bats",
         "first_attack":0,
         "fly":2,
@@ -382,6 +420,7 @@
     {
         "attack":234,
         "building":0,
+        "damage_sec":167,
         "english_name":"Wizard",
         "first_attack":0,
         "fly":1,
@@ -392,6 +431,7 @@
     {
         "attack":96,
         "building":0,
+        "damage_sec":100,
         "english_name":"Magic_Archer",
         "first_attack":0,
         "fly":1,
@@ -402,6 +442,7 @@
     {
         "attack":0,
         "building":0,
+        "damage_sec":0,
         "english_name":"Fire_Spirits",
         "first_attack":178,
         "fly":1,
@@ -412,6 +453,7 @@
     {
         "attack":70,
         "building":0,
+        "damage_sec":0,
         "english_name":"Tornado",
         "first_attack":0,
         "fly":2,
@@ -422,6 +464,7 @@
     {
         "attack":260,
         "building":0,
+        "damage_sec":173,
         "english_name":"Dark_Witch",
         "first_attack":0,
         "fly":0,
@@ -432,6 +475,7 @@
     {
         "attack":0,
         "building":0,
+        "damage_sec":0,
         "english_name":"Furnace",
         "first_attack":0,
         "fly":0,
@@ -442,6 +486,7 @@
     {
         "attack":75,
         "building":0,
+        "damage_sec":0,
         "english_name":"Poison",
         "first_attack":0,
         "fly":2,
@@ -452,6 +497,7 @@
     {
         "attack":220,
         "building":1,
+        "damage_sec":44,
         "english_name":"Mortar",
         "first_attack":0,
         "fly":0,
@@ -462,6 +508,7 @@
     {
         "attack":142,
         "building":0,
+        "damage_sec":129,
         "english_name":"Flying_Machine",
         "first_attack":0,
         "fly":2,
@@ -472,6 +519,7 @@
     {
         "attack":240,
         "building":0,
+        "damage_sec":0,
         "english_name":"The_Log",
         "first_attack":0,
         "fly":0,
@@ -482,6 +530,7 @@
     {
         "attack":0,
         "building":0,
+        "damage_sec":0,
         "english_name":"Skeleton_Balloon",
         "first_attack":110,
         "fly":2,
@@ -492,6 +541,7 @@
     {
         "attack":26,
         "building":1,
+        "damage_sec":104,
         "english_name":"X-Bow",
         "first_attack":0,
         "fly":0,
@@ -502,16 +552,18 @@
     {
         "attack":0,
         "building":0,
+        "damage_sec":0,
         "english_name":"Inferno_Dragon",
         "first_attack":0,
         "fly":2,
         "hp":1070,
         "japanese_name":"インフェルノドラゴン",
-        "tower_damage":-320
+        "tower_damage":0
     },
     {
         "attack":1232,
         "building":0,
+        "damage_sec":0,
         "english_name":"Rocket",
         "first_attack":0,
         "fly":2,
@@ -522,6 +574,7 @@
     {
         "attack":0,
         "building":0,
+        "damage_sec":266,
         "english_name":"Balloon",
         "first_attack":0,
         "fly":2,
@@ -532,6 +585,7 @@
     {
         "attack":101,
         "building":0,
+        "damage_sec":77,
         "english_name":"Royal_Recruits",
         "first_attack":0,
         "fly":0,
@@ -542,6 +596,7 @@
     {
         "attack":543,
         "building":0,
+        "damage_sec":164,
         "english_name":"Three_Musketeers",
         "first_attack":0,
         "fly":1,
@@ -552,6 +607,7 @@
     {
         "attack":222,
         "building":0,
+        "damage_sec":130,
         "english_name":"Mega_Knight",
         "first_attack":444,
         "fly":0,
@@ -567,11 +623,12 @@
         "fly":0,
         "hp":2544,
         "japanese_name":"ロイヤルジャイアント",
-        "tower_damage":254
+        "tower_damage":149
     },
     {
         "attack":207,
         "building":0,
+        "damage_sec":158,
         "english_name":"Dark_Prince",
         "first_attack":0,
         "fly":0,
@@ -582,6 +639,7 @@
     {
         "attack":140,
         "building":0,
+        "damage_sec":232,
         "english_name":"Princess",
         "first_attack":0,
         "fly":1,
@@ -592,6 +650,7 @@
     {
         "attack":0,
         "building":0,
+        "damage_sec":46,
         "english_name":"Royal_Hog",
         "first_attack":0,
         "fly":0,
@@ -602,6 +661,7 @@
     {
         "attack":90,
         "building":0,
+        "damage_sec":81,
         "english_name":"Skeleton_Warriors",
         "first_attack":0,
         "fly":0,
@@ -612,6 +672,7 @@
     {
         "attack":139,
         "building":0,
+        "damage_sec":0,
         "english_name":"Snowball",
         "first_attack":0,
         "fly":2,
@@ -622,6 +683,7 @@
     {
         "attack":0,
         "building":0,
+        "damage_sec":28,
         "english_name":"Ice_Golem",
         "first_attack":0,
         "fly":0,
@@ -632,6 +694,7 @@
     {
         "attack":200,
         "building":0,
+        "damage_sec":250,
         "english_name":"Rumber_Jack",
         "first_attack":0,
         "fly":0,
@@ -642,6 +705,7 @@
     {
         "attack":91,
         "building":0,
+        "damage_sec":0,
         "english_name":"Snow_Spirits",
         "first_attack":0,
         "fly":2,
@@ -652,6 +716,7 @@
     {
         "attack":95,
         "building":0,
+        "damage_sec":0,
         "english_name":"Freeze",
         "first_attack":0,
         "fly":2,
@@ -662,6 +727,7 @@
     {
         "attack":75,
         "building":0,
+        "damage_sec":44,
         "english_name":"Ice_Wizard",
         "first_attack":0,
         "fly":1,
@@ -672,6 +738,7 @@
     {
         "attack":0,
         "building":1,
+        "damage_sec":0,
         "english_name":"Elixir_Pump",
         "first_attack":0,
         "fly":0,
@@ -682,6 +749,7 @@
     {
         "attack":239,
         "building":0,
+        "damage_sec":95,
         "english_name":"Bowler",
         "first_attack":0,
         "fly":0,
@@ -692,6 +760,7 @@
     {
         "attack":110,
         "building":0,
+        "damage_sec":73,
         "english_name":"Rascals",
         "first_attack":0,
         "fly":1,
@@ -702,6 +771,7 @@
     {
         "attack":100,
         "building":0,
+        "damage_sec":142,
         "english_name":"Dart_Goblin",
         "first_attack":0,
         "fly":1,
@@ -712,6 +782,7 @@
     {
         "attack":99,
         "building":0,
+        "damage_sec":90,
         "english_name":"Goblin_Gang",
         "first_attack":0,
         "fly":0,
@@ -722,6 +793,7 @@
     {
         "attack":67,
         "building":0,
+        "damage_sec":85,
         "english_name":"Goblin_Giant",
         "first_attack":0,
         "fly":0,
@@ -732,6 +804,7 @@
     {
         "attack":183,
         "building":0,
+        "damage_sec":0,
         "english_name":"Earthquake",
         "first_attack":0,
         "fly":0,
@@ -742,6 +815,7 @@
     {
         "attack":160,
         "building":0,
+        "damage_sec":160,
         "english_name":"Bandit",
         "first_attack":320,
         "fly":0,
@@ -752,6 +826,7 @@
     {
         "attack":254,
         "building":0,
+        "damage_sec":177,
         "english_name":"Elite_Barbarians",
         "first_attack":0,
         "fly":0,
@@ -762,6 +837,7 @@
     {
         "attack":86,
         "building":0,
+        "damage_sec":122,
         "english_name":"Ram_Rider",
         "first_attack":440,
         "fly":1,
@@ -772,6 +848,7 @@
     {
         "attack":168,
         "building":0,
+        "damage_sec":168,
         "english_name":"Cannon_Cart",
         "first_attack":0,
         "fly":0,
@@ -782,6 +859,7 @@
     {
         "attack":184,
         "building":1,
+        "damage_sec":115,
         "english_name":"Bomb_Tower",
         "first_attack":0,
         "fly":0,
@@ -792,6 +870,7 @@
     {
         "attack":160,
         "building":0,
+        "damage_sec":106,
         "english_name":"Fisherman",
         "first_attack":0,
         "fly":0,
@@ -802,6 +881,7 @@
     {
         "attack":190,
         "building":1,
+        "damage_sec":172,
         "english_name":"Tesla",
         "first_attack":0,
         "fly":1,
@@ -812,6 +892,7 @@
     {
         "attack":1100,
         "building":0,
+        "damage_sec":275,
         "english_name":"Sparky",
         "first_attack":0,
         "fly":0,
@@ -822,16 +903,18 @@
     {
         "attack":0,
         "building":0,
+        "damage_sec":162,
         "english_name":"Elixir_Golem",
         "first_attack":0,
         "fly":0,
-        "hp":1408,
+        "hp":1267,
         "japanese_name":"エリクサーゴーレム",
-        "tower_damage":208
+        "tower_damage":211
     },
     {
         "attack":159,
         "building":0,
+        "damage_sec":75,
         "english_name":"Electro_Dragon",
         "first_attack":0,
         "fly":2,
@@ -842,6 +925,7 @@
     {
         "attack":73,
         "building":0,
+        "damage_sec":43,
         "english_name":"Zappies",
         "first_attack":0,
         "fly":1,
@@ -852,6 +936,7 @@
     {
         "attack":96,
         "building":0,
+        "damage_sec":53,
         "english_name":"Electro_Wizard",
         "first_attack":75,
         "fly":1,
@@ -862,6 +947,7 @@
     {
         "attack":0,
         "building":1,
+        "damage_sec":0,
         "english_name":"Goblin_Cage",
         "first_attack":0,
         "fly":0,
@@ -872,6 +958,7 @@
     {
         "attack":264,
         "building":0,
+        "damage_sec":240,
         "english_name":"Goblin_Brawler",
         "first_attack":0,
         "fly":0,
@@ -887,21 +974,23 @@
         "fly":0,
         "hp":1000,
         "japanese_name":"ロイヤルゴースト",
-        "tower_damage":216
+        "tower_damage":120
     },
     {
-        "attack":518,
+        "attack":280,
         "building":0,
+        "damage_sec":116,
         "english_name":"Executioner",
         "first_attack":0,
         "fly":1,
-        "hp":960,
+        "hp":1010,
         "japanese_name":"ファルチェ",
-        "tower_damage":518
+        "tower_damage":280
     },
     {
         "attack":123,
         "building":0,
+        "damage_sec":82,
         "english_name":"Battle_Healer",
         "first_attack":0,
         "fly":0,
