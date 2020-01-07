@@ -44,3 +44,7 @@ def result(request):
     times = clash.calc_damage(attacker, defencer)
     return render(request, 'result.html', {'attacker': attacker, 'defencer': defencer, 'times': times, 'url': url})
 
+def policy(request):
+    return render(request, 'policy.html')
+
+
