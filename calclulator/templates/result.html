@@ -2,7 +2,8 @@
 {% block content %}
 {%load staticfiles %}
 <head>
-    <link rel="stylesheet" href="{% static 'css/result.css' %}">
+	<link rel="stylesheet" href="{% static 'css/result.css' %}">
+	<meta name=”robots” content=”noindex” />
 </head>
 <br>
 <a href="{{ url }}/clash/result?attacker={{ attacker.japanese_name }}&defencer={{ character.english_name }}"></a>
