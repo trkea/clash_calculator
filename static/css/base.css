@@ -34,7 +34,7 @@ footer {
     bottom: 0; /*下に固定*/
 }
 
-footer > a {
+footer   a {
     text-decoration: none;
 }
 
@@ -58,6 +58,7 @@ footer .icon {
     background-color: transparent;
     font-size: 25px;
     padding: 10px;
+    text-decoration: none;
 }
 
 footer .twitter {
@@ -80,8 +81,24 @@ footer .icon:hover {
     opacity: 50%;
 }
 
+footer .twitter:hover {
+    color: #00FFFF;
+}
+footer .youtube:hover {
+    color: #FF4500;
+}
+
+footer .blog:hover {
+    color: #98FB98;
+}
+
+footer .footer-link {
+    text-decoration: none;
+}
+
 footer .footer-link:hover {
     opacity: 50%;
+    color: white;
 }
 
 
