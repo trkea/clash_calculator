@@ -34,6 +34,10 @@
     text-align: center;
 }
 
+.card {
+	margin:0 auto;
+}
+
 
 
 @import 'https://fonts.googleapis.com/css?family=Bungee';
@@ -50,9 +54,7 @@
     -moz-box-shadow: 0px 11px 2px #301C09;
     box-shadow: 0px 11px 2px #301C09;
     cursor:pointer;
-    margin : 80px auto;
-
-    
+    margin : 30px auto;
 }
 
 .couche2{
@@ -235,6 +237,10 @@
              	-2px 4px 1px #002F83,
              	2px 3px 2px #002F83;
     color:#FEFEFE;
+}
+
+footer {
+	display: block;
 }
 
 /* スマホ(基本形) */

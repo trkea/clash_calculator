@@ -7,12 +7,43 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script data-ad-client="ca-pub-4014848226068727" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+   </script>
 </head>
 <body>
-<header>
-<a href="{{ url }}"><img src="/static/img/clash_calculator.png" class="header-img" alt="クラロワ計算機"></a>
-</header>
-{% block content %}
-{% endblock %}
+<div id="wrapper-all">
+    <header>
+        <a href="{{ url }}"><img src="/static/img/clash_calculator.png" class="header-img" alt="クラロワ計算機"></a>
+    </header>
+    {% block content %}
+    {% endblock %}
+    <div class="footer-pc d-lg-block d-sm-none d-xs-none">
+        <footer>
+            <div class="sns-box">
+                <a class="icon twitter" href="https://twitter.com/trs1141" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a class="icon blog" href="https://trslog.com" target="_blank"><i class="fas fa-blog"></i></a>
+                <a class="icon youtube" href="https://www.youtube.com/channel/UCoEbchyYNBK4lZC8758YSrA" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+            <a href="{{ url }}/policy" class="privacy footer-link">▶︎プライバシーポリシー</a>
+            <a href="https://clashroyale.com/ja/" class="official footer-link">▶︎公式サイト</a>
+        </footer>
+    </div>
+    <div class="footer-sp d-xs-block d-sm-block d-lg-none">
+        <footer>
+            <a href="{{ url }}/policy" class="privacy footer-link">▶︎プライバシーポリシー</a>
+            <br>
+            <a href="https://clashroyale.com/ja/" class="official footer-link">▶︎公式サイト</a>
+            <div class="sns-box">
+                <a class="icon twitter" href="https://twitter.com/trs1141" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a class="icon blog" href="https://trslog.com" target="_blank"><i class="fas fa-blog"></i></a>
+                <a class="icon youtube" href="https://www.youtube.com/channel/UCoEbchyYNBK4lZC8758YSrA" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+        </footer>
+
+    </div>
+</div>
 </body>
 </html>

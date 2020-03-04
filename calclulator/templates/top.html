@@ -2,27 +2,21 @@
 {% block content %}
 {%load staticfiles %}
 <head>
-    <link rel="stylesheet" href="{% static 'css/top.css' %}">
+	<link rel="stylesheet" href="{% static 'css/top.css' %}">
 </head>
 <h1 class="title_jp">クラロワ計算機</h1>
 <h2 class="description">２体のユニットを選び、<br class="phone_area">倒すのに必要な攻撃回数<br class="phone_area">を調べよう！</h2>
-<details class="phone_detail">
-		<summary class="phone_detail">補足</summary>
-		<div class="wrapper">
-			<p class="top-info">
-				・防衛サイドは攻撃をしません<br>
-				・HPと攻撃力のみでダメ計！<br>
-				・ユニット数は考慮しません<br>
-				・突撃ダメージあり<br>
-				・小屋の攻撃力は0！<br>
-				・インフェルノは攻撃できません<br>
-				・要望・お問い合わせ → <a class="contact" href="https://twitter.com/trs1141"><i class="fab fa-twitter"></i></a><br>
-				・<a href="https://clashroyale.com/ja/" target="_blank">公式サイトリンク</a>
-			</p>
-			</details>
-			<a href="{{ url }}/attacker">
+	<div id="rule">
+		<h1 class="rule-title">ルール</h1>
+			<div class="wrapper">
+				<div class="top-info">
+					<p>・防衛サイドは攻撃をしません</p>
+					<p>・HPと攻撃力のみでダメ計！</p>
+					<p>・ユニット数は考慮しません</p>
+					<p>・小屋、インフェルノは攻撃できません</p>
+				</div>
 			</div>
-
+<a href="{{ url }}/attacker">
     <div class="couche1">
     	
     	<div class="couche2">
@@ -49,14 +43,4 @@
  	
     </div>
 </a>
-<a href="{{ url }}/policy" class="article-link">▶︎プライバシーポリシー</a>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4014848226068727"
-     data-ad-slot="8004819585"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 {% endblock %}

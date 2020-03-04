@@ -1,19 +1,92 @@
+#wrapper-all {
+    width:100%;
+    overflow:hidden;
+    background-image: url('/static/img/wood_back.jpg');
+    position: relative;
+    padding-bottom: 85px;/*←footerの高さ*/
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    padding:0;
+}
+
 header {
    background-color:#99CC33;
    text-align: center;
+   padding: 10px 0;
 }
 
 .header-img {
     height: 10%;
 }
 
-body {
-    background-image: url('/static/img/wood_back.jpg');
+/*********
+footer
+**********/
+footer {
+    vertical-align: bottom;
+    background-color: #02a8a8;
+    padding: 15px 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 0; /*下に固定*/
+}
+
+footer > a {
+    text-decoration: none;
+}
+
+footer .privacy {
+    color: white;
+}
+
+footer .footer-link {
+    padding: 10px;
+}
+
+footer .privacy:hover {
+    opacity: 0.5;
+}
+
+footer .sns-box {
+    display: inline-block;
+}
+
+footer .icon {
+    background-color: transparent;
+    font-size: 25px;
+    padding: 10px;
+}
+
+footer .twitter {
+    color: #00FFFF;
+}
+
+footer .youtube {
+    color: #FF4500;
+}
+
+footer .blog {
+    color: #98FB98;
+}
+
+footer .official {
+    color: white;
+}
+
+footer .icon:hover {
+    opacity: 50%;
+}
+
+footer .footer-link:hover {
+    opacity: 50%;
 }
 
 
-/* スマホ */
 
+/* スマホ */
 @media screen and (max-width: 767px) { 
 
    .header-img {
@@ -23,6 +96,20 @@ body {
 
    summary{
     cursor: pointer;
+    }
+
+    .couche1 {
+        margin: 5% auto !important;
+    }
+
+    footer .sns-box {
+        display: inline-block;
+        float: right;
+        margin-top: -5%;
+    }
+
+    .wrapper-all {
+        padding-bottom: 180px;
     }
 
 }

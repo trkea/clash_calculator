@@ -8,6 +8,10 @@
     background-image: url('/static/img/wood.jpg');
 }
 
+.card-list > a {
+    display: inline-block;
+}
+
 .attacked {
     color: #888800;
 }
@@ -20,6 +24,10 @@ img:hover {
 .card {
     width:75px;
     height:90px;
+}
+
+footer  {
+    display: none;
 }
 
 /* スマホ(基本形) */

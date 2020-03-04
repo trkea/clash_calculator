@@ -2,12 +2,19 @@
 	text-align:center;
 	font-size: 350%;
 	font-weight: 900;
+	padding: 20px 0;
 }
 .top-info {
 	text-align:center;
 }
+
+.rule-title {
+	text-align: center;
+	padding: 30px 0;
+	font-weight: bold;
+}
+
 .wrapper {
-	margin: 16px auto;
 	text-align: center;
 	display: block;
   }
@@ -16,28 +23,21 @@
 	display: inline-block;
 	font-size: 150%;
 	font-weight: 900;
+	margin: 0;
+  }
+
+  .wrapper .top-info > p {
+	  margin: 10px 0;
   }
 
 .button {
     text-align: center;
 }
 
-body {
-    background-image: url('/static/img/wood_back.jpg');
-}
-
 .description {
 	font-size: 200%;
 	text-align: center;
-}
-
-.contact {
-	color: white;
-	background-color: #3399FF;
-}
-
-.contact:hover {
-	opacity: 0.5;
+	padding: 30px 0;
 }
 
 .article-link {
@@ -59,9 +59,7 @@ body {
     -moz-box-shadow: 0px 11px 2px #301C09;
     box-shadow: 0px 11px 2px #301C09;
     cursor:pointer;
-    margin : 80px auto;
-
-    
+    margin : 2% auto;  
 }
 
 .couche2{
@@ -217,6 +215,10 @@ summary {
 	summary {
 		text-align:center;
 	}
+
+	.phone_detail {
+		height: auto;
+	}
 }
 
 /* iPhone 5/SE*/
@@ -235,6 +237,10 @@ summary {
 
 	summary {
 		text-align:center;
+	}
+
+	.phone_detail {
+		height: auto;
 	}
 }
 
@@ -255,6 +261,10 @@ summary {
 	summary {
 		text-align:center;
 	}
+
+	.phone_detail {
+		height: auto;
+	}
 }
 
 /* iPhone6/7/8 */
@@ -274,6 +284,10 @@ summary {
 
 	summary {
 		text-align:center;
+	}
+
+	.phone_detail {
+		height: auto;
 	}
 }
 
@@ -299,19 +313,28 @@ summary {
 	.top-info {
 		font-size: 200%;
 	}
+
+	summary {
+		text-align:center;
+	}
+
+	.phone_detail {
+		height: auto;
+	}
 }
 
-summary {
-	text-align:center;
-}
 
 /* スマホ(基本)*/
 @media screen and (min-width: 381px) and (max-width: 767px) { 
-.title_jp {
-	font-size: 280%;
-}
+	.title_jp {
+		font-size: 280%;
+	}
 
-.phone_area {
-	display: block;
-}
+	.phone_area {
+		display: block;
+	}
+
+	.phone_detail {
+		height: auto;
+	}
 }
